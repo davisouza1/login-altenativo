@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    background-color: rgb(80, 50, 108);
+    position: relative;
+}
+
+main > h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.card{
+    position: absolute;
+    height: 350px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background-color: peru;
+    color: white;
+}
+
+.card > h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card{
+    
+}
